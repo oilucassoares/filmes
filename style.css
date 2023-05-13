@@ -40,6 +40,7 @@ a{
 h2{
     margin-bottom: 15px;
     font-size: 30px;
+    
 }
 
 h4{
@@ -49,17 +50,18 @@ h4{
 
 .secao2{
     padding: 25px;
-    display: flex; /* Adicionado para criar um layout flexível */
-    flex-wrap: wrap; /* Adicionado para que os vídeos possam quebrar para a próxima linha em telas menores */
-    justify-content: center; /* Adicionado para centralizar os vídeos horizontalmente */
-}
-.video1,.video2,.video3{
-    margin-bottom: 20px; /* Adicionado espaçamento entre os vídeos */
-    width: calc(33.33% - 20px); /* Distribui os vídeos igualmente em uma linha, com margem à direita */
-    max-width: 300px; /* Limita a largura máxima dos vídeos para evitar que fiquem muito grandes em telas maiores */
+    text-align: center;
+    
 }
 
-@media screen and (max-width: 767px) {
+.video1, .video2, .video3{
+    padding: 10px;
+    width: auto;
+    height: auto;  
+       
+} 
+
+@media screen and (max-width: 480px) {
     /* Estilos para telas pequenas */
     .video1, .video2, .video3{
         width: 100%; /* Faz com que os vídeos ocupem 100% da largura em telas pequenas */
@@ -70,3 +72,12 @@ h4{
         width: 100%;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    .video1, .video2, .video3{
+        padding: 10px;
+        width: 700px;
+        height: 320px;
+    }
+}
+
