@@ -50,3 +50,19 @@ h2{
 .video2{
     margin-right: 20px;
 }
+
+@media screen and (max-width: 480px) {
+    .body{
+        width: 100%;
+        padding: 26px;
+    }
+    h2{
+        font-size: 13px;
+    }
+    h1{
+        font-size: 15px;
+    }
+    h4{
+        font-size: 8px;
+    }
+}
