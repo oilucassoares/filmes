@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(175, 174, 252, 0.678);
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 15px;
+    font-size: 20px;
+    color: blue;
+}
+
+.secao1{
+    padding: 25px;
+    text-align: center;
+}
+
+.descricao-eternos{
+    text-align: justify;
+    padding: 10px;
+    border: black 3px solid;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+h2{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.secao2{
+    padding: 25px;
+}
+
+.video1{
+    margin-right: 20px;
+}
+.video2{
+    margin-right: 20px;
+}
